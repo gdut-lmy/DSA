@@ -5,7 +5,8 @@
 #ifndef DSA_VECTOR_INSERT_H
 #define DSA_VECTOR_INSERT_H
 
-#include "D:\DSA\Inc\Vector.h"
+#include "D:\DSA\inc_vector\Vector.h"
+#include "D:\DSA\inc_vector\vector_expend.h"
 
 template<typename T>
 Rank Vector<T>::insert(Rank r, const T &e) {

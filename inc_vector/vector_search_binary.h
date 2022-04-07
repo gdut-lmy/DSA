@@ -5,7 +5,7 @@
 #ifndef DSA_VECTOR_SEARCH_BINARY_H
 #define DSA_VECTOR_SEARCH_BINARY_H
 
-#include "D:\DSA\Inc\Vector.h"
+#include "D:\DSA\inc_vector\Vector.h"
 
 template<typename T>
 static Rank binSearch(T *S, T const &e, Rank lo, Rank hi) {//在有序向量的区间[lo,hi)内查找元素e，0<=lo<=hi<=_size
@@ -17,3 +17,4 @@ static Rank binSearch(T *S, T const &e, Rank lo, Rank hi) {//在有序向量的�
 }//有多个元素命中时，总能保证返回秩的最大值；查找失败时能返回失败的位置
 
 #endif //DSA_VECTOR_SEARCH_BINARY_H
+

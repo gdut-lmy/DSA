@@ -5,6 +5,7 @@
 #ifndef DSA_VECTOR_SHRINK_H
 #define DSA_VECTOR_SHRINK_H
 
+#include "D:\DSA\inc_vector\Vector.h"
 
 template<typename T>
 void Vector<T>::shrink() {

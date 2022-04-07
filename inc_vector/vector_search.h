@@ -5,6 +5,11 @@
 #ifndef DSA_VECTOR_SEARCH_H
 #define DSA_VECTOR_SEARCH_H
 
+#include "cstdlib"
+#include "D:\DSA\inc_vector\Vector.h"
+#include <algorithm>
+
+using namespace std;
 
 template<typename T>
 Rank Vector<T>::search(const T &e, Rank lo, Rank hi) const {

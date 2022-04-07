@@ -5,7 +5,7 @@
 #ifndef DSA_VECTOR_BRACKET_H
 #define DSA_VECTOR_BRACKET_H
 
-#include "D:\DSA\Inc\Vector.h"
+#include "D:\DSA\inc_vector\Vector.h"
 
 template<typename T>
 T &Vector<T>::operator[](Rank r) {

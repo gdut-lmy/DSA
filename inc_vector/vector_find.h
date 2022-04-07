@@ -6,7 +6,7 @@
 #define DSA_VECTOR_FIND_H
 
 #include <cstdlib>
-#include "../Inc/Vector.h"
+#include "D:\DSA\inc_vector\Vector.h"
 
 
 template<typename T>

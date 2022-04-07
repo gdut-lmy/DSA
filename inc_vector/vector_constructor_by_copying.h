@@ -5,7 +5,7 @@
 #ifndef DSA_VECTOR_CONSTRUCTOR_BY_COPYING_H
 #define DSA_VECTOR_CONSTRUCTOR_BY_COPYING_H
 
-#include "D:\DSA\Inc\Vector.h"
+#include "D:\DSA\inc_vector\Vector.h"
 
 template<typename T>
 void Vector<T>::copyFrom(const T *A, Rank lo, Rank hi) {//以数组A[lo,hi)为蓝本复制向量

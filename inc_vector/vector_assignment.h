@@ -5,7 +5,7 @@
 #ifndef DSA_VECTOR_ASSIGNMENT_H
 #define DSA_VECTOR_ASSIGNMENT_H
 
-#include "D:\DSA\Inc\Vector.h"
+#include "D:\DSA\inc_vector\Vector.h"
 
 template<typename T>
 Vector<T> &Vector<T>::operator=(const Vector<T> &V) {

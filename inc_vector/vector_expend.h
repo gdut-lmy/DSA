@@ -6,8 +6,8 @@
 #define DSA_VECTOR_EXPEND_H
 
 #include <cstdlib>
-#include "../Inc/Vector.h"
-#include "D:\DSA\Inc\vector_search_binary.h"
+#include "D:\DSA\inc_vector\Vector.h"
+#include "D:\DSA/inc_vector\vector_search_binary.h"
 
 template<typename T>
 void Vector<T>::expand() {
