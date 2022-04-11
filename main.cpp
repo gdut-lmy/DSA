@@ -9,7 +9,7 @@
 int testID=0;
 
 template <typename T> //元素类型
-void   testVector ( int testSize ) {
+void testVector ( int testSize ) {
     printf ( "\n  ==== Test %2d. Generate a random vector\n", testID++ );
     Vector<T> V;
     for ( int i = 0; i < testSize; i++ ) V.insert ( dice ( i + 1 ), dice ( ( T ) testSize * 3 ) ); //在[0, 3n)中选择n个数，随机插入向量
