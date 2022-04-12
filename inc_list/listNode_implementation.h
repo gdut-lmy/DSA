@@ -5,7 +5,8 @@
 #ifndef DSA_LISTNODE_IMPLEMENTATION_H
 #define DSA_LISTNODE_IMPLEMENTATION_H
 
-#include "listNode.h"
+#include "D:\DSA\inc_list\listNode.h"
+#include "list.h"
 
 template<typename T>
 ListNodePosi<T> ListNode<T>::insertAsPred(const T &e) {
@@ -22,6 +23,7 @@ ListNodePosi<T> ListNode<T>::insertAsSucc(const T &e) {
     succ = x;
     return x;
 }
+
 
 
 #endif //DSA_LISTNODE_IMPLEMENTATION_H

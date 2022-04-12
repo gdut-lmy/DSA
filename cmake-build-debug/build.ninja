@@ -41,37 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/DSA/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target DSA
+# Object build statements for EXECUTABLE target DSA_Vector
 
 
 #############################################
-# Order-only phony target for DSA
+# Order-only phony target for DSA_Vector
 
-build cmake_object_order_depends_target_DSA: phony || CMakeFiles/DSA.dir
+build cmake_object_order_depends_target_DSA_Vector: phony || CMakeFiles/DSA_Vector.dir
 
-build CMakeFiles/DSA.dir/main.cpp.obj: CXX_COMPILER__DSA_Debug D$:/DSA/main.cpp || cmake_object_order_depends_target_DSA
-  DEP_FILE = CMakeFiles\DSA.dir\main.cpp.obj.d
+build CMakeFiles/DSA_Vector.dir/src/vector_main.cpp.obj: CXX_COMPILER__DSA_Vector_Debug D$:/DSA/src/vector_main.cpp || cmake_object_order_depends_target_DSA_Vector
+  DEP_FILE = CMakeFiles\DSA_Vector.dir\src\vector_main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\DSA.dir
-  OBJECT_FILE_DIR = CMakeFiles\DSA.dir
+  OBJECT_DIR = CMakeFiles\DSA_Vector.dir
+  OBJECT_FILE_DIR = CMakeFiles\DSA_Vector.dir\src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DSA
+# Link build statements for EXECUTABLE target DSA_Vector
 
 
 #############################################
-# Link the executable DSA.exe
+# Link the executable DSA_Vector.exe
 
-build DSA.exe: CXX_EXECUTABLE_LINKER__DSA_Debug CMakeFiles/DSA.dir/main.cpp.obj
+build DSA_Vector.exe: CXX_EXECUTABLE_LINKER__DSA_Vector_Debug CMakeFiles/DSA_Vector.dir/src/vector_main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DSA.dir
+  OBJECT_DIR = CMakeFiles\DSA_Vector.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DSA.exe
-  TARGET_IMPLIB = libDSA.dll.a
-  TARGET_PDB = DSA.exe.dbg
+  TARGET_FILE = DSA_Vector.exe
+  TARGET_IMPLIB = libDSA_Vector.dll.a
+  TARGET_PDB = DSA_Vector.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DSA_List
+
+
+#############################################
+# Order-only phony target for DSA_List
+
+build cmake_object_order_depends_target_DSA_List: phony || CMakeFiles/DSA_List.dir
+
+build CMakeFiles/DSA_List.dir/src/list_main.cpp.obj: CXX_COMPILER__DSA_List_Debug D$:/DSA/src/list_main.cpp || cmake_object_order_depends_target_DSA_List
+  DEP_FILE = CMakeFiles\DSA_List.dir\src\list_main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\DSA_List.dir
+  OBJECT_FILE_DIR = CMakeFiles\DSA_List.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DSA_List
+
+
+#############################################
+# Link the executable DSA_List.exe
+
+build DSA_List.exe: CXX_EXECUTABLE_LINKER__DSA_List_Debug CMakeFiles/DSA_List.dir/src/list_main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DSA_List.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DSA_List.exe
+  TARGET_IMPLIB = libDSA_List.dll.a
+  TARGET_PDB = DSA_List.exe.dbg
 
 
 #############################################
@@ -99,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build DSA: phony DSA.exe
+build DSA_List: phony DSA_List.exe
+
+build DSA_Vector: phony DSA_Vector.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +144,7 @@ build DSA: phony DSA.exe
 #############################################
 # Folder: D:/DSA/cmake-build-debug
 
-build all: phony DSA.exe
+build all: phony DSA_Vector.exe DSA_List.exe
 
 # =============================================================================
 # Built-in targets

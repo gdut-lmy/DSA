@@ -1,3 +1,4 @@
-D:/DSA/cmake-build-debug/CMakeFiles/DSA.dir
+D:/DSA/cmake-build-debug/CMakeFiles/DSA_Vector.dir
+D:/DSA/cmake-build-debug/CMakeFiles/DSA_List.dir
 D:/DSA/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/DSA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,10 +1,10 @@
 #include <iostream>
 
-#include "D:\DSA\inc_vector\Vector.h"
-#include "D:\DSA\inc_vector\rand.h"
-#include "D:\DSA\inc_vector\vector_bracket.h"
-#include "D:\DSA\inc_vector\vector_insert.h"
-#include "D:\DSA\inc_vector\vector_sort.h"
+#include "../inc_vector/Vector.h"
+#include "../inc_vector/rand.h"
+#include "../inc_vector/vector_bracket.h"
+#include "../inc_vector/vector_insert.h"
+#include "../inc_vector/vector_sort.h"
 
 int testID=0;
 
